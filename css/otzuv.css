@@ -1,0 +1,230 @@
+
+@import url(reset.css);
+.clear {
+    clear:both;
+}
+@font-face{
+    font-family: Georgia;
+    uri(../fonts/georgia.ttf);
+}
+h1 {
+   
+    margin:0px;
+    padding:  10px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+p{
+    margin-bottom: 10px;
+}
+
+body {
+    font:13px/1.5 Georgia, "Times New Roman", Times, serif;
+    color: #543d27;
+    background: #2c261d;   
+} 
+#wrepper-img {
+    width: 100%;
+    background: url(../images/bg-container_aut.jpg) center top no-repeat, url(../images/bg-container_inner.jpg) center bottom no-repeat;  
+}
+
+#conteiner {
+    width: 990px;
+     margin: 0 auto;
+    background-color:;
+}
+#top-menu{
+    position: relative;
+    clear: both;
+    height: 930px;
+    height: 110px;
+    padding: 0 30px;
+    background: url(../images/menu_bg.png) no-repeat;    
+}
+#top-menu ul {
+    padding: 12px 0 0 0;
+    margin: 0px;
+    list-style: none;
+}
+#top-menu ul li {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+#top-menu ul li a{
+    float:left;
+    display: block;
+    width: 99px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    font-weight:bold;
+    color:#f9efd0; 
+    outline: none;
+}
+#top-menu li a:hover, #top-menu li .current {
+	color: #ebc759;
+}
+
+#margin_r_330 {
+    margin-right: 330px;
+}
+#site_title {
+    position: absolute;
+    width: 320px;
+    left: 333px;
+    top: -5px;
+    text-align: center ;      
+}
+#site_title h1 a {
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;  
+}
+#site_title h1 a span {
+    display: block;
+    margin: 9px;
+    padding: 0px;
+    font-size: 16px;
+    color: #3d2a10;    
+}
+.baner-top-d {
+    width: 990px;
+    height: 250px;
+    background: url(../images/banner_bg.png) center no-repeat;
+
+}
+.conteiner {
+    float: right;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 80px;
+    text-align: center;
+}
+.conteiner h2{
+    color: #eaecd0;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+.conteiner p {
+    color: #eeefd4;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/*-----st-otzuv----*/
+#conteiner-wrapper-st-otzuv, #conteiner-wrapper-st-recept {
+    overflow: hidden;
+    min-height: 300px;
+    width: 960px;
+    margin:0 auto;
+    background: url(../images/content_top.jpg) center top no-repeat, url(../images/footer_bg.png) center bottom no-repeat, url(../images/obedik_content_middle.png) center repeat-y;     
+}
+#content-menu {
+    width: 900px;
+    margin: 0 auto;
+    padding: 70px 15px;
+    height: auto;
+    overflow: hidden;
+}
+#content-menu {
+    margin: 25px;
+}
+/*------vetka-----*/
+h2.zagalovok{
+    width: 100%;
+    height:63px;
+}
+.vetka-st-kontakt {
+    background: url(../images/vetka-h2_bg.png) 110px 30px no-repeat; 
+}
+#content-menu .zagalovok {
+    text-align: center;
+    font-size: 1.9em;
+    letter-spacing:-1px;
+    color: #3e2b18;
+}  
+b {
+    color: red;
+}
+form{
+    width: 606px;
+    margin: 30px 80px 0;
+}
+input[type="text"]{
+    width: 303px; 
+}
+textarea{
+    width: 606px;
+    height: 110px;
+    resize: none;
+}
+#conteiner-wrapper-st-recept #error {
+    width: 350px;
+    height: 350px;
+    text-align: left;
+    background-position: 200px; 
+    
+}
+#conteiner-wrapper-st-recept #error h2 .error {
+   display: inline-block;
+    
+    
+}
+
+
+
+/*----------footer-----*/
+  
+#footer-wrapper {
+    margin:0px auto;
+}      
+#footer {
+    width: 500px; 
+    margin: 20px auto 0 auto;
+    
+}
+#footer ul{
+    display:table-row;
+    width: 100px;
+   text-align: center; 
+    
+}
+#footer li{
+    display: table-cell;
+    width: 100px; 
+    height: 20px;
+    
+}
+#footer li a{
+    text-decoration: none;
+    color: #696052;
+    font-size: 17px;
+    width:940px;
+    height: 20px;
+    display: table-cell; 
+}
+#footer li a:hover{
+    text-decoration: underline;
+}
+#footer-wrapper .www  {
+    width:940px;
+    margin: 0 auto;
+    text-align: center; 
+}
+#conteiner-wrapper st-recept h2 {
+    float: left;
+    
+}
+.clear {
+    clear: both;
+/*-----end-footer-------*/
+
+ 
+
+
+
+
